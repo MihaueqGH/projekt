@@ -35,7 +35,7 @@ Instalacja
 
     Pobierz lub sklonuj repozytorium:
 
-    git clone https://github.com/TwojeRepozytorium/dane-pogodowe.git
+    git clone https://github.com/MihaueqGH/projekt.git
 
     Budowanie projektu:
 
