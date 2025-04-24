@@ -1,0 +1,49 @@
+\doxysection{C\+:/\+Users/\+Michal/\+Documents/\+Dane\+\_\+\+Pogodowe\+\_\+\+Projekt/show\+Offline.h}
+\hypertarget{show_offline_8h_source}{}\label{show_offline_8h_source}\mbox{\hyperlink{show_offline_8h}{Idź do dokumentacji tego pliku.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ SHOWOFFLINE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ SHOWOFFLINE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QWidget>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QLineEdit>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QTableWidget>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <QVBoxLayout>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <QJsonObject>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <QLabel>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <QComboBox>}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_show_offline_a8d0999e37396292ad017d92d70c90ae6}{ShowOffline}}\ :\ \textcolor{keyword}{public}\ QWidget}
+\DoxyCodeLine{00021\ \{}
+\DoxyCodeLine{00022\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{class_show_offline_a8d0999e37396292ad017d92d70c90ae6}{ShowOffline}}(QVBoxLayout\ *parentLayout);}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{class_show_offline_a2139560f7d4e5619f497b7950f0ca579}{\string~ShowOffline}}();}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00037\ \ \ \ \ QLineEdit\ *filterEdit;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00038\ \ \ \ \ QTableWidget\ *tableWidget;\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00039\ \ \ \ \ QVBoxLayout\ *parentLayout;\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00040\ \ \ \ \ QWidget\ *chartWindow\ =\ \textcolor{keyword}{nullptr};\ \ \ \ \ \ }
+\DoxyCodeLine{00041\ \ \ \ \ QLabel\ *customTooltip\ =\ \textcolor{keyword}{nullptr};\ \ \ \ \ }
+\DoxyCodeLine{00042\ \ \ \ \ QJsonObject\ m\_currentDataObj;\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00043\ \ \ \ \ QComboBox\ *m\_dateRangeComboBox\ =\ \textcolor{keyword}{nullptr};\ }
+\DoxyCodeLine{00044\ \ \ \ \ QLabel\ *errorLabel\ =\ \textcolor{keyword}{nullptr};\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{void}\ showDataFromFiles();}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keywordtype}{void}\ parseJsonData(\textcolor{keyword}{const}\ QJsonObject\ \&dataObj,\ \textcolor{keyword}{const}\ QString\ \&fileName);}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{void}\ addRowToTable(\textcolor{keyword}{const}\ QString\ \&combinedText,\ \textcolor{keyword}{const}\ QString\ \&sensorId);}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{void}\ filterTable(\textcolor{keyword}{const}\ QString\ \&filterText);}
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00076\ \ \ \ \ \textcolor{keywordtype}{void}\ onRowClicked(\textcolor{keywordtype}{int}\ row,\ \textcolor{keywordtype}{int}\ column);}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordtype}{void}\ createChart(\textcolor{keyword}{const}\ QJsonObject\ \&dataObj);}
+\DoxyCodeLine{00083\ \};}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SHOWOFFLINE\_H}}
+
+\end{DoxyCode}

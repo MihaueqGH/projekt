@@ -1,0 +1,12 @@
+digraph "C:/Users/Michal/Documents/Dane_Pogodowe_Projekt/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/debug"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=FreeSans,fontsize=10,labelfontname=FreeSans,labelfontsize=10];
+  node [fontname=FreeSans,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_7c54cebf1e8586a5628d2a0d6be0c5dd {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="Desktop_Qt_6_8_3_MinGW\l_64_bit-Debug", fontname=FreeSans,fontsize=10 style="filled,dashed", URL="dir_7c54cebf1e8586a5628d2a0d6be0c5dd.html",tooltip=""]
+  dir_f203cb2a1b9dc1e334256af0ad2f4450 [label="debug", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_f203cb2a1b9dc1e334256af0ad2f4450.html",tooltip=""];
+  }
+}

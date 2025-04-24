@@ -1,0 +1,76 @@
+\doxysection{Dokumentacja klasy Timer}
+\hypertarget{class_timer}{}\label{class_timer}\index{Timer@{Timer}}
+
+
+Klasa \doxylink{class_timer}{Timer} umożliwia wyświetlanie aktualnego czasu na etykiecie.  
+
+
+
+
+{\ttfamily \#include $<$timer.\+h$>$}
+
+
+
+Dziedziczy QObject.
+
+\doxysubsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_timer_ae6282ce183a2f54f922013b978c52934}{Timer}} (QLabel \texorpdfstring{$\ast$}{*}label, QObject \texorpdfstring{$\ast$}{*}parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_timer}{Timer}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_timer_a14fa469c4c295c5fa6e66a4ad1092146}{\texorpdfstring{$\sim$}{\string~}\+Timer}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \doxylink{class_timer}{Timer}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa \doxylink{class_timer}{Timer} umożliwia wyświetlanie aktualnego czasu na etykiecie. 
+
+Ta klasa korzysta z obiektu QTimer do okresowego aktualizowania wyświetlanego czasu na etykiecie QLabel. Czas jest aktualizowany w sposób automatyczny co sekundę. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\Hypertarget{class_timer_ae6282ce183a2f54f922013b978c52934}\index{Timer@{Timer}!Timer@{Timer}}
+\index{Timer@{Timer}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{Timer()}{Timer()}}
+{\footnotesize\ttfamily \label{class_timer_ae6282ce183a2f54f922013b978c52934} 
+Timer\+::\+Timer (\begin{DoxyParamCaption}\item[{QLabel \texorpdfstring{$\ast$}{*}}]{label}{, }\item[{QObject \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Konstruktor klasy \doxylink{class_timer}{Timer}. 
+
+Inicjalizuje obiekt klasy \doxylink{class_timer}{Timer}, tworzy i ustawia QTimer oraz przypisuje QLabel do wyświetlania aktualnego czasu.
+
+
+\begin{DoxyParams}{Parametry}
+{\em label} & Wskaźnik na etykietę, na której będzie wyświetlany czas. \\
+\hline
+{\em parent} & Wskaźnik na rodzica (domyślnie nullptr).\\
+\hline
+\end{DoxyParams}
+Tworzy obiekt QTimer i łączy go z odpowiednim slotem do aktualizacji czasu. Następnie wywołuje metodę update\+Time() po raz pierwszy, aby natychmiast wyświetlić czas, a potem uruchamia QTimer do aktualizacji czasu co sekundę.
+
+
+\begin{DoxyParams}{Parametry}
+{\em label} & Wskaźnik na etykietę QLabel, na której będzie wyświetlany czas. \\
+\hline
+{\em parent} & Wskaźnik na obiekt rodzica (domyślnie nullptr). \\
+\hline
+\end{DoxyParams}
+\texorpdfstring{$<$}{<} Tworzymy nowy obiekt QTimer.\Hypertarget{class_timer_a14fa469c4c295c5fa6e66a4ad1092146}\index{Timer@{Timer}!````~Timer@{\texorpdfstring{$\sim$}{\string~}Timer}}
+\index{````~Timer@{\texorpdfstring{$\sim$}{\string~}Timer}!Timer@{Timer}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Timer()}{\string~Timer()}}
+{\footnotesize\ttfamily \label{class_timer_a14fa469c4c295c5fa6e66a4ad1092146} 
+Timer\+::\texorpdfstring{$\sim$}{\string~}\+Timer (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destruktor klasy \doxylink{class_timer}{Timer}. 
+
+Usuwa obiekt QTimer.
+
+Zatrzymuje odliczanie QTimer po zakończeniu pracy obiektu. \texorpdfstring{$<$}{<} Zatrzymanie QTimer, aby zapobiec dalszym aktualizacjom czasu po zniszczeniu obiektu.
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Michal/\+Documents/\+Dane\+\_\+\+Pogodowe\+\_\+\+Projekt/\mbox{\hyperlink{timer_8h}{timer.\+h}}\item 
+C\+:/\+Users/\+Michal/\+Documents/\+Dane\+\_\+\+Pogodowe\+\_\+\+Projekt/\mbox{\hyperlink{timer_8cpp}{timer.\+cpp}}\end{DoxyCompactItemize}

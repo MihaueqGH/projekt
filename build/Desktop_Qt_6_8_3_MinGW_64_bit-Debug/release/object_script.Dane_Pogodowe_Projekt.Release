@@ -1,0 +1,11 @@
+release/api.o
+release/main.o
+release/mainwindow.o
+release/showOffline.o
+release/stationTable.o
+release/timer.o
+release/qrc_icon.o
+release/moc_mainwindow.o
+release/moc_showOffline.o
+release/moc_stationTable.o
+release/moc_timer.o

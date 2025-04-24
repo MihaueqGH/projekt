@@ -1,0 +1,86 @@
+\doxysection{Dokumentacja klasy Api\+Manager}
+\hypertarget{class_api_manager}{}\label{class_api_manager}\index{ApiManager@{ApiManager}}
+
+
+Klasa \doxylink{class_api_manager}{Api\+Manager} odpowiada za pobieranie danych z API.  
+
+
+
+
+{\ttfamily \#include $<$api.\+h$>$}
+
+\doxysubsubsection*{Statyczne metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_api_manager_a13b36a11a243108032d585ee533fe494}{fetch\+Data}} (const QString \&url\+String, std\+::function$<$ void(const QJson\+Array \&)$>$ callback, std\+::function$<$ void(int)$>$ error\+Callback)
+\begin{DoxyCompactList}\small\item\em Pobiera dane z API jako QJson\+Array. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_api_manager_a6c7d040759f2454c891e51c4ae95e5b6}{fetch\+Data\+Raw}} (const QString \&url, std\+::function$<$ void(const QJson\+Document \&)$>$ callback, std\+::function$<$ void(int)$>$ error\+Callback)
+\begin{DoxyCompactList}\small\item\em Pobiera dane z API jako surowy QJson\+Document. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa \doxylink{class_api_manager}{Api\+Manager} odpowiada za pobieranie danych z API. 
+
+Klasa udostępnia metody statyczne do pobierania danych JSON z podanego URL-\/a, z obsługą błędów za pomocą callbacków. 
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\Hypertarget{class_api_manager_a13b36a11a243108032d585ee533fe494}\index{ApiManager@{ApiManager}!fetchData@{fetchData}}
+\index{fetchData@{fetchData}!ApiManager@{ApiManager}}
+\doxysubsubsection{\texorpdfstring{fetchData()}{fetchData()}}
+{\footnotesize\ttfamily \label{class_api_manager_a13b36a11a243108032d585ee533fe494} 
+void Api\+Manager\+::fetch\+Data (\begin{DoxyParamCaption}\item[{const QString \&}]{url\+String}{, }\item[{std\+::function$<$ void(const QJson\+Array \&)$>$}]{callback}{, }\item[{std\+::function$<$ void(int)$>$}]{error\+Callback}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Pobiera dane z API jako QJson\+Array. 
+
+Wysyła żądanie HTTP pod podany URL i zwraca dane w postaci QJson\+Array.
+
+
+\begin{DoxyParams}{Parametry}
+{\em url\+String} & URL żądania. \\
+\hline
+{\em callback} & Funkcja wywoływana po udanym pobraniu danych (z QJson\+Array). \\
+\hline
+{\em error\+Callback} & Funkcja wywoływana w przypadku błędu (z kodem błędu).\\
+\hline
+{\em url\+String} & Adres URL, z którego mają zostać pobrane dane. \\
+\hline
+{\em callback} & Funkcja wywoływana po pomyślnym pobraniu danych. \\
+\hline
+{\em error\+Callback} & Funkcja wywoływana w przypadku błędu (np. brak połączenia, zły URL). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_api_manager_a6c7d040759f2454c891e51c4ae95e5b6}\index{ApiManager@{ApiManager}!fetchDataRaw@{fetchDataRaw}}
+\index{fetchDataRaw@{fetchDataRaw}!ApiManager@{ApiManager}}
+\doxysubsubsection{\texorpdfstring{fetchDataRaw()}{fetchDataRaw()}}
+{\footnotesize\ttfamily \label{class_api_manager_a6c7d040759f2454c891e51c4ae95e5b6} 
+void Api\+Manager\+::fetch\+Data\+Raw (\begin{DoxyParamCaption}\item[{const QString \&}]{url}{, }\item[{std\+::function$<$ void(const QJson\+Document \&)$>$}]{callback}{, }\item[{std\+::function$<$ void(int)$>$}]{error\+Callback}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Pobiera dane z API jako surowy QJson\+Document. 
+
+Pobiera dane z API i przekazuje je jako QJson\+Document.
+
+
+\begin{DoxyParams}{Parametry}
+{\em url} & URL żądania. \\
+\hline
+{\em callback} & Funkcja wywoływana po udanym pobraniu danych (z QJson\+Document). \\
+\hline
+{\em error\+Callback} & Funkcja wywoływana w przypadku błędu (z kodem błędu).\\
+\hline
+{\em url} & Adres URL do pobrania danych. \\
+\hline
+{\em callback} & Funkcja wywoływana po pomyślnym pobraniu danych jako QJson\+Document. \\
+\hline
+{\em error\+Callback} & Funkcja wywoływana w przypadku błędu. \\
+\hline
+\end{DoxyParams}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Michal/\+Documents/\+Dane\+\_\+\+Pogodowe\+\_\+\+Projekt/\mbox{\hyperlink{api_8h}{api.\+h}}\item 
+C\+:/\+Users/\+Michal/\+Documents/\+Dane\+\_\+\+Pogodowe\+\_\+\+Projekt/\mbox{\hyperlink{api_8cpp}{api.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,293 @@
+# Ten plik został wygenerowany przez doxygen -g
+# Konfiguracja dla projektu: Dane pogodowe
+
+DOXYFILE_VERSION       = 1.10.0
+PROJECT_NAME           = "Dane pogodowe"
+PROJECT_BRIEF          = "Program pobierający i analizujący dane ze stacji pogodowych w Polsce."
+PROJECT_NUMBER         =
+OUTPUT_DIRECTORY       = .
+CREATE_SUBDIRS         = NO
+ALLOW_UNICODE_NAMES    = NO
+OUTPUT_LANGUAGE        = Polish
+BRIEF_MEMBER_DESC      = YES
+REPEAT_BRIEF           = YES
+ABBREVIATE_BRIEF       =
+ALWAYS_DETAILED_SEC    = NO
+INLINE_INHERITED_MEMB  = YES
+FULL_PATH_NAMES        = YES
+STRIP_FROM_PATH        =
+STRIP_PROJECT_PATH     = YES
+SHORT_NAMES            = NO
+OPTIMIZE_OUTPUT_FOR_C  = YES
+OPTIMIZE_OUTPUT_JAVA   = NO
+OPTIMIZE_FOR_FORTRAN   = NO
+OPTIMIZE_FOR_OBJC      = NO
+OPTIMIZE_FOR_ADA       = NO
+OPTIMIZE_FOR_CS        = NO
+OPTIMIZE_FOR_PHP       = NO
+OPTIMIZE_FOR_PYTHON    = NO
+OPTIMIZE_FOR_IDL       = NO
+OPTIMIZE_FOR_VHDL      = NO
+OPTIMIZE_FOR_IO        = NO
+EXTENSION_MAPPING      =
+MARKDOWN_SUPPORT       = YES
+AUTOLINK_SUPPORT       = YES
+BUILTIN_STL_SUPPORT    = NO
+CPP_STL_SUPPORT        = YES
+CPP_NAMESPACE_SEPARATOR= ::
+HIDE_SCOPE_NAMES       = NO
+SHOW_INCLUDE_FILES     = YES
+SHOW_GROUPED_MEMB_DESC = YES
+FORCE_LOCAL_INCLUDES   = NO
+INLINE_INFO            = YES
+SORT_MEMBERS_CTORS_1ST = YES
+SORT_GROUPED_MEMB_NODEF= NO
+SORT_BY_PAGE_ORDER     = YES
+STRUCT_FILE_SCOPE      = NO
+LAYOUT_FILE            =
+CEXT_MAP_FEVAL         =
+
+# Ścieżka do plików źródłowych (folder nadrzędny względem 'docs')
+INPUT                  = ..
+
+# Wzorce plików do przetworzenia
+FILE_PATTERNS          = *.cpp \
+                         *.h
+
+# Włącz rekursywne przeszukiwanie katalogów (potrzebne, jeśli w przyszłości dodasz podkatalogi w folderze nadrzędnym)
+RECURSIVE              = YES
+
+EXCLUDE                =
+EXCLUDE_SYMBOLS        =
+EXCLUDE_PATTERNS       =
+EXCLUDE_CONTENTS_PATTERNS =
+EXAMPLE_PATH           =
+EXAMPLE_PATTERNS       = *
+EXAMPLE_RECURSIVE      = NO
+IMAGE_PATH             =
+INPUT_FILTER           =
+FILTER_PATTERNS        =
+FILTER_SOURCE_PATTERNS =
+FILTER_USERS           =
+INCLUDED_BY_GRAPH      = YES
+INCLUDE_GRAPH          = YES
+COMPCALL_GRAPH         = YES
+GRAPHICAL_HIERARCHY    = YES
+DIRECTORY_GRAPH        = YES
+FILE_GRAPH             = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+ALPHABETICAL_INDEX     = YES
+COLS_IN_ALPHA_INDEX    = 5
+IGNORE_PREFIX          =
+
+# Ustawienia wyjścia HTML
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+HTML_HEADER            =
+HTML_FOOTER            =
+HTML_STYLESHEET        =
+HTML_EXTRA_FILES       =
+HTML_TOC_IDE           = YES
+HTML_MATHJAX           = NO
+HTML_EXTRA_STYLESHEET  =
+SEARCHENGINE           = YES
+SERVER_BASED_SEARCH    = NO
+SEARCHENGINE_URL       =
+SEARCHDATA_FILE        = search.data
+SEPARATE_MEMBER_PAGES  = NO
+USE_MATHJAX            = NO
+MATHJAX_FORMAT         = HTML-CSS
+MATHJAX_RELPATH        = http://cdn.mathjax.org/mathjax/latest
+MATHJAX_EXTENSIONS     =
+MATHJAX_CODEFILE       =
+EXT_LINKS_URL          =
+
+# Ustawienia wyjścia LaTeX
+GENERATE_LATEX         = YES
+LATEX_OUTPUT           = latex
+LATEX_CMD_PATH         =
+LATEX_MAKEINDEX_CMD    = makeindex
+COMPACT_LATEX          = NO
+PAPER_TYPE             = a4
+EXTRA_PACKAGES         =
+LATEX_HEADER           =
+LATEX_FOOTER           =
+LATEX_EXTRA_FILES      =
+PDF_VIA_LATEX          = YES
+
+# Ustawienia wyjścia RTF
+GENERATE_RTF           = NO
+RTF_OUTPUT             = rtf
+COMPACT_RTF            = NO
+RTF_HYPERLINKS         = NO
+RTF_STYLESHEET_FILE    =
+RTF_EXTENSIONS_FILE    =
+
+# Ustawienia wyjścia man pages
+GENERATE_MAN           = NO
+MAN_OUTPUT             = man
+MAN_EXTENSION          = .3
+MAN_LINKS              = NO
+
+# Ustawienia wyjścia XML
+GENERATE_XML           = NO
+XML_OUTPUT             = xml
+XML_PROGRAMMABLE       = NO
+
+# Ustawienia wyjścia docbook
+GENERATE_DOCBOOK       = NO
+DOCBOOK_OUTPUT         = docbook
+DOCBOOK_PROGRAMMABLE   = NO
+
+# Ustawienia wyjścia dla Apple Help
+GENERATE_APPLEHELP     = NO
+APPLEHELP_KEYWORD_MAP  =
+APPLEHELP_APP_NAME     =
+APPLEHELP_APP_ID       =
+APPLEHELP_PUBLISHER    =
+APPLEHELP_SPEC_FILE    =
+APPLEHELP_EXT_FILTER   =
+APPLEHELP_SEARCH_URL   =
+APPLEHELP_SERVERS      =
+APPLEHELP_INDEX_EXCLUDE_REGEX =
+APPLEHELP_IGNORE_EXTERNAL_ENTITIES = NO
+
+# Ustawienia wyjścia dla Zealous Flow
+GENERATE_HTMLHELP      = NO
+CHM_FILE               =
+HHC_LOCATION           =
+GENERATE_CHI           = NO
+CHM_INDEX_ENCODING     =
+BINARY_TOC             = NO
+
+# Ustawienia wyjścia dla Qt Help
+GENERATE_QHP           = NO
+QHP_NAMESPACE          =
+QHP_VIRTUAL_FOLDER     = doc
+QHP_PROJECT_FILENAME   =
+QHP_PROJECT_FILE       =
+QHP_NAMESPACE_FILE     =
+QHP_VIRTUAL_FOLDER_FILE=
+QHP_CUST_FILTER_FILE   =
+QHP_SECT_FILTER_FILE   =
+QHP_GROUP_FILTER_FILE  =
+QHP_FILE_EXTENSION     = .qhp
+
+# Ustawienia wyjścia dla docsets
+GENERATE_DOCSET        = NO
+DOCSET_OUTPUT          = docset
+DOCSET_PUBLISHER_ID    =
+DOCSET_PUBLISHER_NAME  =
+DOCSET_FEEDNAME        =
+DOCSET_FEEDURL         =
+DOCSET_BUNDLE_ID       =
+DOCSET_BUNDLE_VERSION  =
+DOCSET_TO_DOT          = NO
+
+# Ustawienia dla DITA
+GENERATE_DITA          = NO
+DITA_OUTPUT            = dita
+DITA_CSS               =
+
+# Ustawienia dla PlanUML
+GENERATE_PLANTUML      = NO
+PLANTUML_JAR_PATH      =
+PLANTUML_INCLUDE_PATH  =
+PLANTUML_CFG_FILE      =
+PLANTUML_GENERATOR     = auto
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+PREDEFINED             =
+EXPAND_AS_DEFINED      =
+SKIP_FUNCTION_MACROS   = YES
+
+# Ustawienia przetwarzania
+TAGFILES               =
+GENERATE_TAGFILE       =
+ALLEXCLUDE             = NO
+ALIASES                =
+TCL_SUBST              =
+OPTIMIZE_OUTPUT_VIRTUAL= YES
+OPTIMIZE_OUTPUT_FID    = NO
+EXTENSION_MAPPING      =
+BUILTIN_STL_SUPPORT    = YES
+CPP_STL_SUPPORT        = YES
+CPP_NAMESPACE_SEPARATOR= ::
+HIDE_SCOPE_NAMES       = NO
+SHOW_INCLUDE_FILES     = YES
+SHOW_GROUPED_MEMB_DESC = YES
+FORCE_LOCAL_INCLUDES   = NO
+INLINE_INFO            = YES
+SORT_MEMBERS_CTORS_1ST = YES
+SORT_GROUPED_MEMB_NODEF= NO
+SORT_BY_PAGE_ORDER     = YES
+STRUCT_FILE_SCOPE      = NO
+LAYOUT_FILE            =
+
+# Ustawienia ostrzeżeń
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = NO
+WARN_AS_ERROR          = NO
+WARN_FORMAT            = "$file:$line: $text"
+WARN_LOGFILE           =
+
+# Ustawienia projektu i identyfikacji
+PROJECT_NAME           = "Dane pogodowe"
+PROJECT_BRIEF          = "Program pobierający i analizujący dane ze stacji pogodowych w Polsce."
+PROJECT_NUMBER         =
+PROJECT_LOGO           =
+OUTPUT_DIRECTORY       = .
+CREATE_SUBDIRS         = NO
+ALLOW_UNICODE_NAMES    = NO
+OUTPUT_LANGUAGE        = Polish
+
+# Ustawienia wejścia
+INPUT                  = ..
+INPUT_ENCODING         = UTF-8
+FILE_PATTERNS          = *.cpp \
+                         *.h
+EXCLUDE                =
+EXCLUDE_SYMBOLS        =
+EXCLUDE_PATTERNS       =
+EXCLUDE_CONTENTS_PATTERNS =
+EXAMPLE_PATH           =
+EXAMPLE_PATTERNS       = *
+EXAMPLE_RECURSIVE      = NO
+IMAGE_PATH             =
+INPUT_FILTER           =
+FILTER_PATTERNS        =
+FILTER_SOURCE_PATTERNS =
+FILTER_USERS           =
+RECURSIVE              = YES
+EXCLUDE_SYMBOLS        =
+
+# Ustawienia wykresów
+HAVE_DOT               = YES
+DOT_NUM_THREADS        = 0
+DOT_FONTNAME           = FreeSans
+DOT_FONTSIZE           = 10
+DOT_IMAGE_FORMAT       = png
+DOT_PATH               =
+DOTFILE_DIRS           =
+GRAPHviz_DOT           = dot
+DOT_MULTI_TARGETS      = NO
+GENERATE_LEGEND        = YES
+DOT_CLEANUP            = YES
+
+# Dodatkowe ustawienia (możesz dostosować według potrzeb)
+EXTRACT_ALL            = YES    # Ustaw na YES, aby dokumentować wszystkie klasy i funkcje, nawet bez specjalnych komentarzy doxygen
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+HIDE_UNDOC_RELATIONS   = YES
+HIDE_UNDOC_CLASSES     = YES
+HIDE_FRIEND_COMPOUNDS  = YES
+DIRECTORY_GRAPH        = YES
+FILE_GRAPH             = YES
+CLASS_GRAPH            = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES

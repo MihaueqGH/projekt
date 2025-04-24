@@ -1,0 +1,31 @@
+\doxysection{Dokumentacja pliku C\+:/\+Users/\+Michal/\+Documents/\+Dane\+\_\+\+Pogodowe\+\_\+\+Projekt/api.cpp}
+\hypertarget{api_8cpp}{}\label{api_8cpp}\index{C:/Users/Michal/Documents/Dane\_Pogodowe\_Projekt/api.cpp@{C:/Users/Michal/Documents/Dane\_Pogodowe\_Projekt/api.cpp}}
+{\ttfamily \#include "{}api.\+h"{}}\newline
+{\ttfamily \#include $<$QNetwork\+Access\+Manager$>$}\newline
+{\ttfamily \#include $<$QNetwork\+Request$>$}\newline
+{\ttfamily \#include $<$QNetwork\+Reply$>$}\newline
+{\ttfamily \#include $<$QJson\+Document$>$}\newline
+{\ttfamily \#include $<$QJson\+Array$>$}\newline
+{\ttfamily \#include $<$QJson\+Parse\+Error$>$}\newline
+{\ttfamily \#include $<$QUrl$>$}\newline
+{\ttfamily \#include $<$QDebug$>$}\newline
+Wykres zależności załączania dla api.\+cpp\+:
+% FIG 0
+\doxysubsubsection*{Zmienne}
+\begin{DoxyCompactItemize}
+\item 
+QNetwork\+Access\+Manager \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{api_8cpp_a57128960980ba92ae42c8157266007b0}{manager}} = new QNetwork\+Access\+Manager()
+\begin{DoxyCompactList}\small\item\em Globalny menedżer zapytań sieciowych. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja zmiennych}
+\Hypertarget{api_8cpp_a57128960980ba92ae42c8157266007b0}\index{api.cpp@{api.cpp}!manager@{manager}}
+\index{manager@{manager}!api.cpp@{api.cpp}}
+\doxysubsubsection{\texorpdfstring{manager}{manager}}
+{\footnotesize\ttfamily \label{api_8cpp_a57128960980ba92ae42c8157266007b0} 
+QNetwork\+Access\+Manager\texorpdfstring{$\ast$}{*} manager = new QNetwork\+Access\+Manager()}
+
+
+
+Globalny menedżer zapytań sieciowych. 
+

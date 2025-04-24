@@ -1,0 +1,114 @@
+\doxysection{Dokumentacja klasy Station\+Table}
+\hypertarget{class_station_table}{}\label{class_station_table}\index{StationTable@{StationTable}}
+
+
+Klasa \doxylink{class_station_table}{Station\+Table} służy do wyświetlania tabeli ze stacjami pomiarowymi, umożliwia filtrowanie, wybór stacji oraz prezentację danych w formie wykresu.  
+
+
+
+
+{\ttfamily \#include $<$station\+Table.\+h$>$}
+
+
+
+Dziedziczy QObject.
+
+\doxysubsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_station_table_a3b5930bff7e3299a1bc46d6334641cf2}{Station\+Table}} (QVBox\+Layout \texorpdfstring{$\ast$}{*}parent\+Layout)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_station_table}{Station\+Table}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_station_table_a33dc0bf1a2acf409dfc1d178a9aa25b1}{\texorpdfstring{$\sim$}{\string~}\+Station\+Table}} ()
+\begin{DoxyCompactList}\small\item\em Destruktor klasy \doxylink{class_station_table}{Station\+Table}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_station_table_a6fc5f083817584bc614adcaaf75bd0fc}{show\+Data}} (const QJson\+Array \&data)
+\begin{DoxyCompactList}\small\item\em Wyświetla dane stacji w tabeli. \end{DoxyCompactList}\item 
+QTable\+Widget \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_station_table_a745debebee70a444bfd44b3e798e19c6}{get\+Table\+Widget}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca wskaźnik do widżetu tabeli. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa \doxylink{class_station_table}{Station\+Table} służy do wyświetlania tabeli ze stacjami pomiarowymi, umożliwia filtrowanie, wybór stacji oraz prezentację danych w formie wykresu. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\Hypertarget{class_station_table_a3b5930bff7e3299a1bc46d6334641cf2}\index{StationTable@{StationTable}!StationTable@{StationTable}}
+\index{StationTable@{StationTable}!StationTable@{StationTable}}
+\doxysubsubsection{\texorpdfstring{StationTable()}{StationTable()}}
+{\footnotesize\ttfamily \label{class_station_table_a3b5930bff7e3299a1bc46d6334641cf2} 
+Station\+Table\+::\+Station\+Table (\begin{DoxyParamCaption}\item[{QVBox\+Layout \texorpdfstring{$\ast$}{*}}]{parent\+Layout}{}\end{DoxyParamCaption})}
+
+
+
+Konstruktor klasy \doxylink{class_station_table}{Station\+Table}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em parent\+Layout} & Layout, do którego dodawane będą komponenty GUI.\\
+\hline
+\end{DoxyParams}
+Tworzy i inicjalizuje widok tabeli stacji wraz z polem filtrowania. Podłącza sygnały do obsługi kliknięć oraz filtrowania stacji.
+
+
+\begin{DoxyParams}{Parametry}
+{\em parent\+Layout} & Układ, do którego dodawane są widżety. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_station_table_a33dc0bf1a2acf409dfc1d178a9aa25b1}\index{StationTable@{StationTable}!````~StationTable@{\texorpdfstring{$\sim$}{\string~}StationTable}}
+\index{````~StationTable@{\texorpdfstring{$\sim$}{\string~}StationTable}!StationTable@{StationTable}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}StationTable()}{\string~StationTable()}}
+{\footnotesize\ttfamily \label{class_station_table_a33dc0bf1a2acf409dfc1d178a9aa25b1} 
+Station\+Table\+::\texorpdfstring{$\sim$}{\string~}\+Station\+Table (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destruktor klasy \doxylink{class_station_table}{Station\+Table}. 
+
+Usuwa dynamicznie alokowane widżety. 
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\Hypertarget{class_station_table_a745debebee70a444bfd44b3e798e19c6}\index{StationTable@{StationTable}!getTableWidget@{getTableWidget}}
+\index{getTableWidget@{getTableWidget}!StationTable@{StationTable}}
+\doxysubsubsection{\texorpdfstring{getTableWidget()}{getTableWidget()}}
+{\footnotesize\ttfamily \label{class_station_table_a745debebee70a444bfd44b3e798e19c6} 
+QTable\+Widget \texorpdfstring{$\ast$}{*} Station\+Table\+::get\+Table\+Widget (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Zwraca wskaźnik do widżetu tabeli. 
+
+Zwraca wskaźnik do widgetu tabeli.
+
+\begin{DoxyReturn}{Zwraca}
+Wskaźnik do QTable\+Widget.
+
+Wskaźnik do QTable\+Widget używanego przez klasę. 
+\end{DoxyReturn}
+\Hypertarget{class_station_table_a6fc5f083817584bc614adcaaf75bd0fc}\index{StationTable@{StationTable}!showData@{showData}}
+\index{showData@{showData}!StationTable@{StationTable}}
+\doxysubsubsection{\texorpdfstring{showData()}{showData()}}
+{\footnotesize\ttfamily \label{class_station_table_a6fc5f083817584bc614adcaaf75bd0fc} 
+void Station\+Table\+::show\+Data (\begin{DoxyParamCaption}\item[{const QJson\+Array \&}]{data}{}\end{DoxyParamCaption})}
+
+
+
+Wyświetla dane stacji w tabeli. 
+
+Wyświetla dane o stacjach w tabeli.
+
+
+\begin{DoxyParams}{Parametry}
+{\em data} & Tablica JSON z danymi stacji.\\
+\hline
+\end{DoxyParams}
+Dane są przekazywane w formie tablicy JSON i wyświetlane w tabeli.
+
+
+\begin{DoxyParams}{Parametry}
+{\em data} & Tablica QJson\+Array zawierająca dane stacji. \\
+\hline
+\end{DoxyParams}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Michal/\+Documents/\+Dane\+\_\+\+Pogodowe\+\_\+\+Projekt/\mbox{\hyperlink{station_table_8h}{station\+Table.\+h}}\item 
+C\+:/\+Users/\+Michal/\+Documents/\+Dane\+\_\+\+Pogodowe\+\_\+\+Projekt/\mbox{\hyperlink{station_table_8cpp}{station\+Table.\+cpp}}\end{DoxyCompactItemize}

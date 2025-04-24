@@ -1,0 +1,24 @@
+# Wymagania projektu Qt
+# Zależności:
+# - Qt 6.8.2 (z komponentami: Core, GUI, Network, Charts, Widgets)
+# - Kompilator C++: MinGW 13.1.0
+# - C++17
+# - Doxygen do generowania dokumentacji
+
+# Zależności Qt:
+Qt6Core >= 6.8.2
+Qt6Gui >= 6.8.2
+Qt6Network >= 6.8.2
+Qt6Charts >= 6.8.2
+Qt6Widgets >= 6.8.2
+
+# Kompilator C++
+MinGW >= 13.1.0
+
+# Opcjonalne:
+# Qt Creator (IDE) 
+# Doxygen do generowania dokumentacji
+Doxygen >= 1.9.1
+
+# Inne:
+# C++17 (Określane w pliku .pro)

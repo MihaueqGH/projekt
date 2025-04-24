@@ -1,0 +1,57 @@
+\doxysection{C\+:/\+Users/\+Michal/\+Documents/\+Dane\+\_\+\+Pogodowe\+\_\+\+Projekt/station\+Table.h}
+\hypertarget{station_table_8h_source}{}\label{station_table_8h_source}\mbox{\hyperlink{station_table_8h}{Idź do dokumentacji tego pliku.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ STATIONTABLE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ STATIONTABLE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QTableWidget>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QJsonArray>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QVBoxLayout>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <QLineEdit>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <QLabel>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <QJsonObject>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <QMainWindow>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <QChartView>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QComboBox>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <QDateEdit>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <QJsonDocument>}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_station_table_a3b5930bff7e3299a1bc46d6334641cf2}{StationTable}}\ :\ \textcolor{keyword}{public}\ QObject\ \{}
+\DoxyCodeLine{00021\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00028\ \ \ \ \ \mbox{\hyperlink{class_station_table_a3b5930bff7e3299a1bc46d6334641cf2}{StationTable}}(QVBoxLayout\ *parentLayout);}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{class_station_table_a33dc0bf1a2acf409dfc1d178a9aa25b1}{\string~StationTable}}();}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_station_table_a6fc5f083817584bc614adcaaf75bd0fc}{showData}}(\textcolor{keyword}{const}\ QJsonArray\ \&data);}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00045\ \ \ \ \ QTableWidget*\ \mbox{\hyperlink{class_station_table_a745debebee70a444bfd44b3e798e19c6}{getTableWidget}}();}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{void}\ createChartWindow(QChartView\ *chartView,\ \textcolor{keyword}{const}\ QString\ \&title);}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ \ \ \ \ QTableWidget\ *table;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00056\ \ \ \ \ QLineEdit\ *filterEdit;\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00057\ \ \ \ \ QMainWindow\ *chartWindow\ =\ \textcolor{keyword}{nullptr};\ }
+\DoxyCodeLine{00058\ \ \ \ \ QVBoxLayout\ *parentLayout;\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00059\ \ \ \ \ QJsonArray\ data;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00060\ \ \ \ \ QLabel\ *errorLabel;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{bool}\ error\ =\ \textcolor{keyword}{false};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{keywordtype}{void}\ filterTable(\textcolor{keyword}{const}\ QString\ \&filterText);}
+\DoxyCodeLine{00068\ }
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keywordtype}{void}\ onCellClicked(\textcolor{keywordtype}{int}\ row);}
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00080\ \ \ \ \ \textcolor{keywordtype}{void}\ fetchApi(\textcolor{keywordtype}{int}\ stationId,\ \textcolor{keyword}{const}\ QJsonObject\ \&stationData);}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00089\ \ \ \ \ \textcolor{keywordtype}{void}\ fetchSensorData(\textcolor{keywordtype}{int}\ sensorId,\ \textcolor{keyword}{const}\ QJsonObject\ \&stationData,\ \textcolor{keyword}{const}\ QString\ \&paramName,\ \textcolor{keyword}{const}\ QString\ \&paramFormula);}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00095\ \ \ \ \ \textcolor{keywordtype}{void}\ showFilteredDataOnChart(\textcolor{keyword}{const}\ QJsonArray\ \&filteredValues);}
+\DoxyCodeLine{00096\ }
+\DoxyCodeLine{00101\ \ \ \ \ \textcolor{keywordtype}{void}\ sortDataByDate(QJsonArray\ \&valuesArray);}
+\DoxyCodeLine{00102\ \};}
+\DoxyCodeLine{00103\ }
+\DoxyCodeLine{00104\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ STATIONTABLE\_H}}
+
+\end{DoxyCode}
