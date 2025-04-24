@@ -51,21 +51,3 @@ Instalacja
 
         Po pobraniu danych, aplikacja wygeneruje wykresy i umożliwi ich przeglądanie offline.
 
-Struktura projektu
-
-/Dane_pogodowe
-│
-├── /api.cpp          # Kod odpowiedzialny za pobieranie danych z API
-├── /mainwindow.cpp   # Główna logika aplikacji i interfejsu użytkownika
-├── /showOffline.cpp  # Logika wyświetlania danych offline
-├── /stationTable.cpp # Logika przetwarzania danych stacji
-├── /timer.cpp        # Timer do odświeżania danych
-│
-├── /api.h            # Deklaracje funkcji do pobierania danych
-├── /mainwindow.h     # Deklaracje klasy głównego okna aplikacji
-├── /showOffline.h    # Deklaracje funkcji wyświetlania danych offline
-├── /stationTable.h   # Deklaracje klasy do przetwarzania danych
-├── /timer.h          # Deklaracje funkcji do obsługi timera
-│
-├── /mainwindow.ui    # Definicja interfejsu użytkownika
-└── /icon.qrc         # Ikony wykorzystywane w aplikacji
