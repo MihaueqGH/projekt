@@ -5,11 +5,14 @@ Funkcje
 
     Pobieranie danych: Aplikacja pobiera dane pogodowe ze stacji meteorologicznych w Polsce.
 
-    Analiza danych: Po pobraniu danych, aplikacja generuje wykresy i przeprowadza prostą analizę, umożliwiając użytkownikowi szybkie zrozumienie bieżącej sytuacji pogodowej.
+    Analiza danych: Po pobraniu danych, aplikacja generuje wykresy i przeprowadza prostą analizę,
+    umożliwiając użytkownikowi szybkie zrozumienie bieżącej sytuacji pogodowej.
 
-    Offline: Wszystkie dane są pobierane do lokalnego folderu, co umożliwia ich przeglądanie offline w późniejszym czasie.
+    Offline: Wszystkie dane są pobierane do lokalnego folderu,
+    co umożliwia ich przeglądanie offline w późniejszym czasie.
 
-    Interfejs użytkownika: Intuicyjny interfejs graficzny stworzony za pomocą Qt Widgets, umożliwiający łatwą nawigację i interakcję z danymi.
+    Interfejs użytkownika: Intuicyjny interfejs graficzny stworzony za pomocą Qt Widgets,
+    umożliwiający łatwą nawigację i interakcję z danymi.
 
 Wymagania
 
